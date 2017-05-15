@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://oscars.yipitdata.com/films/Chariots_of_Fire
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amz-Id-2:
+      - zz372yFBqUV8msiSyOit0TkyTQGtRIcT0vgpgXv07PYnwATipmrf7ReUqd/40JYSUNYKZwxnmzQ=
+      X-Amz-Request-Id:
+      - 5368A64F4E567521
+      Date:
+      - Mon, 15 May 2017 19:47:01 GMT
+      Last-Modified:
+      - Tue, 17 Nov 2015 19:44:41 GMT
+      Etag:
+      - '"c88247ea8fdbb54876a251e920ae124e"'
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '956'
+      Server:
+      - AmazonS3
+    body:
+      encoding: UTF-8
+      string: "{\n    \" Production company \": \" Allied Stars Ltd  Goldcrest Films
+        Enigma Productions  The Ladd Company \", \n    \" Release dates \": \"   30\\u00a0March\\u00a01981
+        ( 1981-03-30 )  (Royal Command Film Performance)       \", \n    \" Running
+        time \": \"124 minutes\", \n    \"Box office\": \"$58,972,904 (U.S.) [ 2 ]\",
+        \n    \"Budget\": \"\\u00a33 million [ 1 ]\", \n    \"Cinematography\": \"David
+        Watkin\", \n    \"Country\": \"United Kingdom\", \n    \"Directed by\": \"Hugh
+        Hudson\", \n    \"Distributed by\": \"Warner Bros.  (USA & Canada)  20th Century
+        Fox  (International)\", \n    \"Edited by\": \"Terry Rawlings\", \n    \"Language\":
+        \"English\", \n    \"Music by\": \"Vangelis\", \n    \"Produced by\": \"David
+        Puttnam\", \n    \"Starring\": \"   Ben Cross  Ian Charleson  Nigel Havers
+        \ Cheryl Campbell  Alice Krige  Lindsay Anderson  Dennis Christopher  Nigel
+        Davenport  Brad Davis  Peter Egan  Sir John Gielgud  Ian Holm  Patrick Magee
+        \  \", \n    \"Title\": \"Chariots of Fire\", \n    \"Written by\": \"Colin
+        Welland\"\n}"
+    http_version: 
+  recorded_at: Mon, 15 May 2017 19:47:00 GMT
+recorded_with: VCR 2.9.3
