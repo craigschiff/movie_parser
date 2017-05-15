@@ -39,9 +39,6 @@ class FilmParser
   def parse_budget(budget)
     budget = budget.slice(budget.index('$')+1..-1).split(' ')
     budget = budget.detect{ |term| term.to_f > 0 } # taking first number
-    #   break if term == '['
-    #   budget = term if term.to_f > 0
-    # end
     budget = convert_budget_to_number(budget)
   end
 
