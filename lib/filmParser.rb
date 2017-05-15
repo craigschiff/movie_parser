@@ -22,16 +22,8 @@ class FilmParser
   def  find_budget(budget)
     if budget.include?"$"
       budget = parse_budget(budget)
-      # budget = budget.slice(budget.index('$')+1..-1).split(' ')
-      # budget.each do |term|
-      #   break if term == '['
-      #   budget = term if term.to_f > 0 # testing if its a number
-      # end
-      # budget = convert_budget_to_number(budget)
     elsif budget.include?"£"
       budget = parse_budget(budget.gsub('£', '$')) * 1.29 #exchange rate - recursively solving same problem with appropriate multiple
-    # else
-    #   puts budget
     end
     budget.round
   end
